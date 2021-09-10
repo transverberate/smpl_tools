@@ -1,0 +1,1110 @@
+[
+  {
+    "source": "Track 01.wav",
+    "silence": 0.95,
+    "amplitude": -100,
+    "sample_names": [
+      "Programmed Loops Insects.wav",
+      "Programmed Loops Ruff A-Men.wav",
+      "Programmed Loops Combination 1.wav",
+      "Programmed Loops Hardstep.wav",
+      "Programmed Loops Sub-Urban.wav"
+    ]
+  },
+  {
+    "source": "Track 02.wav",
+    "silence": 0.95,
+    "amplitude": -100,
+    "sample_names": [
+      "Programmed Loops Flying.wav",
+      "Programmed Loops Heads.wav",
+      "Programmed Loops Prolonged Exposure.wav",
+      "Programmed Loops Combination 2.wav",
+      "Programmed Loops Dinky Break.wav"
+    ]
+  },
+  {
+    "source": "Track 03.wav",
+    "silence": 0.95,
+    "amplitude": -100,
+    "sample_names": [
+      "Programmed Loops Rolling Break.wav",
+      "Programmed Loops Scotty.wav",
+      "Programmed Loops Give Yourself.wav",
+      "Programmed Loops Pauls Break.wav",
+      "Programmed Loops Airi Break.wav"
+    ]
+  },
+  {
+    "source": "Track 04.wav",
+    "silence": 0.95,
+    "amplitude": -100,
+    "sample_names": [
+      "Programmed Loops A-Men Variation 1.wav",
+      "Programmed Loops Clint Eastwood.wav",
+      "Programmed Loops Soul Pride.wav",
+      "Programmed Loops Mobile 1.wav",
+      "Programmed Loops Mobile 2.wav"
+    ]
+  },
+  {
+    "source": "Track 05.wav",
+    "silence": 0.95,
+    "amplitude": -100,
+    "sample_names": [
+      "Programmed Loops Outdoors.wav",
+      "Programmed Loops Legal.wav",
+      "Programmed Loops Illegal.wav",
+      "Programmed Loops The Break Break.wav",
+      "Programmed Loops The Break Break 2.wav"
+    ]
+  },
+  {
+    "source": "Track 06.wav",
+    "silence": 0.95,
+    "amplitude": -100,
+    "sample_names": [
+      "Programmed Loops SO1 Break.wav",
+      "Programmed Loops Ride Break.wav",
+      "Programmed Loops Combination 3.wav",
+      "Programmed Loops Stretched SO1.wav",
+      "Programmed Loops Terminator.wav"
+    ]
+  },
+  {
+    "source": "Track 07.wav",
+    "silence": 0.95,
+    "amplitude": -100,
+    "sample_names": [
+      "Programmed Loops Re-Group.wav",
+      "Programmed Loops Combination 4.wav",
+      "Programmed Loops Stretched Re-Group.wav",
+      "Programmed Loops Jam.wav",
+      "Programmed Loops Jam 2.wav"
+    ]
+  },
+  {
+    "source": "Track 08.wav",
+    "silence": 0.95,
+    "amplitude": -100,
+    "sample_names": [
+      "Programmed Loops Rolling 2.wav",
+      "Programmed Loops Cool Break.wav",
+      "Programmed Loops Think 1.wav",
+      "Programmed Loops Think 2.wav",
+      "Programmed Loops Think 3.wav"
+    ]
+  },
+  {
+    "source": "Track 09.wav",
+    "silence": 0.95,
+    "amplitude": -100,
+    "sample_names": [
+      "Programmed Loops Demon.wav",
+      "Programmed Loops Stick Break.wav",
+      "Programmed Loops Bull Bell.wav",
+      "Programmed Loops Bull Bell 2.wav"
+    ]
+  },
+  {
+    "source": "Track 10.wav",
+    "silence": 0.95,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Serious.wav",
+      "Straight Loops Train.wav",
+      "Straight Loops Bass Drum.wav",
+      "Straight Loops Spectrum.wav",
+      "Straight Loops Rude.wav",
+      "Straight Loops Fierce Joy.wav",
+      "Straight Loops Skippy.wav",
+      "Straight Loops Clairvoyant.wav"
+    ]
+  },
+  {
+    "source": "Track 11.wav",
+    "silence": 0.95,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Automation.wav",
+      "Straight Loops Bob-y-Heard.wav",
+      "Straight Loops Outboard.wav",
+      "Straight Loops Thin.wav",
+      "Straight Loops Finished.wav",
+      "Straight Loops Positive.wav",
+      "Straight Loops Perc 1.wav",
+      "Straight Loops Ruffneck.wav"
+    ]
+  },
+  {
+    "source": "Track 12.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops The Break.wav",
+      "Straight Loops Think 1.wav",
+      "Straight Loops A-Men 1.wav",
+      "Straight Loops Deamon.wav",
+      "Straight Loops Labello.wav",
+      "Straight Loops Think 2.wav",
+      "Straight Loops Think 3.wav",
+      "Straight Loops Up-Town.wav"
+    ]
+  },
+  {
+    "source": "Track 13.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Effective.wav",
+      "Straight Loops Straw.wav",
+      "Straight Loops A-Men (Original).wav",
+      "Straight Loops Cool Break.wav",
+      "Straight Loops Dumpty.wav",
+      "Straight Loops Format.wav",
+      "Straight Loops Talented.wav",
+      "Straight Loops Dynamic.wav"
+    ]
+  },
+  {
+    "source": "Track 14.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Copper.wav",
+      "Straight Loops Copper 2.wav",
+      "Straight Loops Jam.wav",
+      "Straight Loops Cooling.wav",
+      "Straight Loops Stylish.wav",
+      "Straight Loops Go-Man.wav",
+      "Straight Loops Paul.wav",
+      "Straight Loops Funky.wav"
+    ]
+  },
+  {
+    "source": "Track 15.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Old Jay.wav",
+      "Straight Loops Dip.wav",
+      "Straight Loops Scotty.wav",
+      "Straight Loops Bull Break.wav",
+      "Straight Loops Rat.wav",
+      "Straight Loops Wield.wav",
+      "Straight Loops Old Skool.wav",
+      "Straight Loops Flumps.wav"
+    ]
+  },
+  {
+    "source": "Track 16.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Porta.wav",
+      "Straight Loops Jungle.wav",
+      "Straight Loops Bright.wav",
+      "Straight Loops US 2.wav",
+      "Straight Loops Up Set.wav",
+      "Straight Loops Recoil.wav",
+      "Straight Loops Remit.wav",
+      "Straight Loops Silver.wav"
+    ]
+  },
+  {
+    "source": "Track 17.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Tiny.wav",
+      "Straight Loops B-Boy.wav",
+      "Straight Loops Explore.wav",
+      "Straight Loops Ice.wav",
+      "Straight Loops Perpetual.wav",
+      "Straight Loops Flow.wav",
+      "Straight Loops Drop 69.wav",
+      "Straight Loops Energy.wav"
+    ]
+  },
+  {
+    "source": "Track 18.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Heavy.wav",
+      "Straight Loops Copta.wav",
+      "Straight Loops Lazy 1.wav",
+      "Straight Loops Steel.wav",
+      "Straight Loops The Roller.wav",
+      "Straight Loops Stem.wav",
+      "Straight Loops Talk Quick.wav",
+      "Straight Loops Face.wav"
+    ]
+  },
+  {
+    "source": "Track 19.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Release.wav",
+      "Straight Loops Process.wav",
+      "Straight Loops Hand Full.wav",
+      "Straight Loops Introduce.wav",
+      "Straight Loops Current.wav",
+      "Straight Loops Exclusive.wav",
+      "Straight Loops Power.wav",
+      "Straight Loops Center.wav"
+    ]
+  },
+  {
+    "source": "Track 20.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Important.wav",
+      "Straight Loops Design.wav",
+      "Straight Loops Incredible.wav",
+      "Straight Loops 20th Century.wav",
+      "Straight Loops Chip.wav",
+      "Straight Loops Step.wav",
+      "Straight Loops Optimise.wav",
+      "Straight Loops Every DJ.wav"
+    ]
+  },
+  {
+    "source": "Track 21.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Hallucinate.wav",
+      "Straight Loops Rules.wav",
+      "Straight Loops Develop.wav",
+      "Straight Loops Oo-Yeah.wav",
+      "Straight Loops Victory.wav",
+      "Straight Loops Retard.wav",
+      "Straight Loops ABOM.wav",
+      "Straight Loops Equipped.wav"
+    ]
+  },
+  {
+    "source": "Track 22.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Britain.wav",
+      "Straight Loops Survive.wav",
+      "Straight Loops Bullet.wav",
+      "Straight Loops Consciousness.wav",
+      "Straight Loops Condition.wav",
+      "Straight Loops Digital.wav",
+      "Straight Loops Media Interest.wav",
+      "Straight Loops Multi.wav"
+    ]
+  },
+  {
+    "source": "Track 23.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Revamped.wav",
+      "Straight Loops Tick Tock.wav",
+      "Straight Loops Rattle.wav",
+      "Straight Loops Audio.wav",
+      "Straight Loops Pop.wav",
+      "Straight Loops Help.wav",
+      "Straight Loops Gateway.wav",
+      "Straight Loops Appreciate.wav"
+    ]
+  },
+  {
+    "source": "Track 24.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Sonic.wav",
+      "Straight Loops Optical.wav",
+      "Straight Loops Feel It.wav",
+      "Straight Loops Prevent.wav",
+      "Straight Loops Craft.wav",
+      "Straight Loops Concentrate.wav",
+      "Straight Loops T2.wav",
+      "Straight Loops Facilities.wav"
+    ]
+  },
+  {
+    "source": "Track 25.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Enthusiast.wav",
+      "Straight Loops OK.wav",
+      "Straight Loops Electro.wav",
+      "Straight Loops Sought.wav",
+      "Straight Loops Fuller.wav",
+      "Straight Loops Data Roll.wav",
+      "Straight Loops Generate.wav",
+      "Straight Loops Kingz.wav"
+    ]
+  },
+  {
+    "source": "Track 26.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Unveil.wav",
+      "Straight Loops Feature.wav",
+      "Straight Loops Lazy 2.wav",
+      "Straight Loops Full-Size.wav",
+      "Straight Loops Tearin.wav",
+      "Straight Loops Halters.wav",
+      "Straight Loops Appointed.wav",
+      "Straight Loops Compatible.wav"
+    ]
+  },
+  {
+    "source": "Track 27.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Starter.wav",
+      "Straight Loops Quality.wav",
+      "Straight Loops Rawz.wav",
+      "Straight Loops Soul Pride.wav",
+      "Straight Loops Huh Hup.wav",
+      "Straight Loops EZee.wav",
+      "Straight Loops Premier.wav",
+      "Straight Loops Placed Nicely.wav"
+    ]
+  },
+  {
+    "source": "Track 28.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Apache.wav",
+      "Straight Loops Together.wav",
+      "Straight Loops Peekaboo.wav",
+      "Straight Loops Conducted.wav",
+      "Straight Loops Raw.wav",
+      "Straight Loops Hot Pantz.wav",
+      "Straight Loops Maybe.wav",
+      "Straight Loops Hid.wav"
+    ]
+  },
+  {
+    "source": "Track 29.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Straight Loops Pro-Roller.wav",
+      "Straight Loops Ssshit.wav",
+      "Straight Loops Amen Version.wav",
+      "Straight Loops Limiter.wav",
+      "Straight Loops Soul Pride EP.wav"
+    ]
+  },
+  {
+    "source": "Track 30.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Drum Rolls Roll With It.wav",
+      "Drum Rolls Roll It Out.wav",
+      "Drum Rolls Rollin Snare.wav",
+      "Drum Rolls Roll Away.wav",
+      "Drum Rolls Forward Roll.wav",
+      "Drum Rolls Backward Roll.wav",
+      "Drum Rolls 5 Point Roll.wav"
+    ]
+  },
+  {
+    "source": "Track 31.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Drum Rolls Roll Up.wav",
+      "Drum Rolls Roll Down.wav",
+      "Drum Rolls Roll Over.wav",
+      "Drum Rolls Rolly Poley.wav",
+      "Drum Rolls Roll It Flat.wav",
+      "Drum Rolls Rock n Roll.wav",
+      "Drum Rolls Roll Bar.wav"
+    ]
+  },
+  {
+    "source": "Track 32.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Drum Rolls Roll Format.wav",
+      "Drum Rolls Sausage Roll.wav",
+      "Drum Rolls Bacon Roll.wav",
+      "Drum Rolls Egg Roll.wav",
+      "Drum Rolls Chicken Roll.wav",
+      "Drum Rolls Roller Blind.wav",
+      "Drum Rolls Rollin Stock.wav"
+    ]
+  },
+  {
+    "source": "Track 33.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Drum Rolls Rollin Hill.wav",
+      "Drum Rolls Roll Like Thunder.wav",
+      "Drum Rolls Rollin Pin.wav",
+      "Drum Rolls Rattle n Roll.wav",
+      "Drum Rolls On A Roll.wav",
+      "Drum Rolls Roll In It.wav",
+      "Drum Rolls Fly Roll.wav"
+    ]
+  },
+  {
+    "source": "Track 34.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Drum Rolls Toilet Roll.wav",
+      "Drum Rolls Kitchen Roll.wav",
+      "Drum Rolls Drum Roll.wav",
+      "Drum Rolls Kettle Roll.wav",
+      "Drum Rolls Tearin Roll.wav",
+      "Drum Rolls Foil Roll.wav",
+      "Drum Rolls Cling Roll.wav"
+    ]
+  },
+  {
+    "source": "Track 35.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Percussion Ride A.wav",
+      null,
+      "Percussion Ride Cym 1.wav",
+      null,
+      "Percussion Rise Crash.wav",
+      null,
+      "Percussion Ride B.wav",
+      null,
+      "Percussion Ride C.wav",
+      null,
+      "Percussion Rev Cym 2.wav",
+      null,
+      "Percussion Crash A.wav",
+      null,
+      "Percussion Crash B.wav",
+      null,
+      "Percussion Open Hat A.wav",
+      null,
+      "Percussion Open Hat B.wav",
+      null
+    ]
+  },
+  {
+    "source": "Track 36.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Percussion Tambo Loop A.wav",
+      "Percussion Tambo Loop B.wav",
+      "Percussion Tambo Hit 1.wav",
+      null,
+      "Percussion Shaker Loop A.wav",
+      "Percussion Shaker Loop B.wav",
+      "Percussion Tambo Hit 2.wav",
+      null,
+      "Percussion Shaker Hit 1.wav",
+      null,
+      "Percussion Shaker Hit 2.wav",
+      null,
+      "Percussion Tambo Loop C.wav",
+      "Percussion Tambo Loop D.wav"
+    ]
+  },
+  {
+    "source": "Track 37.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Percussion Perc. Loop A.wav",
+      "Percussion Shaker Loop C.wav",
+      "Percussion Bongo A.wav",
+      null,
+      "Percussion Bongo B.wav",
+      null,
+      "Percussion Kalimba A.wav",
+      null,
+      "Percussion Bent Bongo.wav",
+      null,
+      "Percussion Perc Noise 1.wav",
+      null,
+      "Percussion Ragga Noise.wav",
+      null,
+      "Percussion Cowbell A.wav",
+      null,
+      "Percussion Wood Block A.wav",
+      null
+    ]
+  },
+  {
+    "source": "Track 38.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Percussion Bass Thump.wav",
+      null,
+      "Percussion Wood Block B.wav",
+      null,
+      "Percussion Cowbell Loop.wav",
+      "Percussion Stickz Loop.wav",
+      "Percussion Bongo Roll.wav",
+      "Percussion Fat Drum.wav",
+      null,
+      "Percussion Kalimba B.wav",
+      null,
+      "Percussion Wood Block C.wav",
+      null,
+      "Percussion Perc. Noise 2.wav",
+      null,
+      "Percussion Perc. Noise 3.wav",
+      null
+    ]
+  },
+  {
+    "source": "Track 39.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Percussion Rhythm Loop 1.wav",
+      "Percussion Snare 1.wav",
+      null,
+      "Percussion Wind Chime.wav",
+      "Percussion Gong 1.wav",
+      "Percussion Gong 2.wav",
+      "Percussion Swipe.wav",
+      null,
+      "Percussion Church Bell.wav",
+      null,
+      "Percussion Steel Drum.wav",
+      null,
+      "Percussion Bass Drum.wav",
+      null,
+      "Percussion Sax Squeel.wav",
+      null
+    ]
+  },
+  {
+    "source": "Track 40.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Percussion Open Hat C.wav",
+      null,
+      "Percussion Snare 2.wav",
+      null,
+      "Percussion Crash C.wav",
+      null,
+      "Percussion Slap.wav",
+      null,
+      "Percussion Ride D.wav",
+      null,
+      "Percussion Crash D.wav",
+      null,
+      "Percussion Ride E.wav",
+      null,
+      "Percussion Tambo Hit 3.wav",
+      null,
+      "Percussion Crash E.wav",
+      null,
+      "Percussion Cowbell B.wav",
+      null
+    ]
+  },
+  {
+    "source": "Track 41.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Percussion Rattle.wav",
+      null,
+      "Percussion Ride F.wav",
+      null,
+      "Percussion Bongo C.wav",
+      null,
+      "Percussion Bongo D.wav",
+      null,
+      "Percussion Bongo E.wav",
+      null,
+      "Percussion Bongo F.wav",
+      null,
+      "Percussion Bongo G.wav",
+      null,
+      "Percussion Timbale 1.wav",
+      null,
+      "Percussion Timbale 2.wav",
+      null,
+      "Percussion Triangle Closed A.wav",
+      null
+    ]
+  },
+  {
+    "source": "Track 42.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Percussion Triangle Closed B.wav",
+      null,
+      "Percussion Shaker Hit 3.wav",
+      null,
+      "Percussion Shaker Hit 4.wav",
+      null,
+      "Percussion Samber Whistle.wav",
+      null,
+      "Percussion Scrape 1.wav",
+      null,
+      "Percussion Scrape 2.wav",
+      null,
+      "Percussion Hi Block.wav",
+      null,
+      "Percussion Low Block.wav",
+      null,
+      "Percussion Lower Block.wav",
+      null,
+      "Percussion Bottle Hit 1.wav",
+      null,
+      "Percussion Bottle Hit 2.wav",
+      null,
+      "Percussion Triangle Open.wav",
+      null
+    ]
+  },
+  {
+    "source": "Track 43.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Sampled Pads Screecher.wav",
+      "Sampled Pads Dark.wav",
+      "Sampled Pads Dark n Screechy.wav",
+      "Sampled Pads Wail.wav",
+      "Sampled Pads Atmospheric.wav",
+      "Sampled Pads Full.wav",
+      "Sampled Pads Vox.wav"
+    ]
+  },
+  {
+    "source": "Track 44.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Sampled Pads Gong.wav",
+      "Sampled Pads Breath.wav",
+      "Sampled Pads Stab.wav",
+      "Sampled Pads Choir String.wav",
+      "Sampled Pads Orchestra.wav",
+      "Sampled Pads Phat.wav",
+      "Sampled Pads Bell Vox.wav"
+    ]
+  },
+  {
+    "source": "Track 45.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Sampled Pads Morph.wav",
+      "Sampled Pads Dark String.wav",
+      "Sampled Pads Transform.wav",
+      "Sampled Pads Open Sweep.wav",
+      "Sampled Pads Industrial.wav",
+      "Sampled Pads JMJ.wav",
+      "Sampled Pads Dragon.wav"
+    ]
+  },
+  {
+    "source": "Track 46.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Sampled Pads Soul.wav",
+      "Sampled Pads Lo-Fi 1.wav",
+      "Sampled Pads Lo-Fi 2.wav",
+      "Sampled Pads FX.wav",
+      "Sampled Pads Mental Business.wav",
+      "Sampled Pads Birdz.wav",
+      "Sampled Pads Deep.wav"
+    ]
+  },
+  {
+    "source": "Track 47.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Sampled Pads Drone.wav",
+      "Sampled Pads Statement.wav",
+      "Sampled Pads Flutta.wav",
+      "Sampled Pads Bellz.wav",
+      "Sampled Pads Warm.wav",
+      "Sampled Pads Intense.wav"
+    ]
+  },
+  {
+    "source": "Track 48.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Digital Pads Phat Choir Cmin 7th.wav",
+      "Digital Pads Open Sweep Cmin 7th.wav",
+      "Digital Pads Closed Sweep 1 Cmin 7th.wav",
+      "Digital Pads Closed Sweep 2 Cmin 7th.wav",
+      "Digital Pads Timeless C.wav"
+    ]
+  },
+  {
+    "source": "Track 49.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Digital Pads Solar System C.wav",
+      "Digital Pads North Polez C.wav",
+      "Digital Pads Bell Shimmer Cmin 7th.wav",
+      "Digital Pads Choir Fall Cmin 7th.wav",
+      "Digital Pads Rhodes Chord Cmin 7th.wav"
+    ]
+  },
+  {
+    "source": "Track 50.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Digital Pads Rhodes C1.wav",
+      "Digital Pads Rhodes C2.wav",
+      "Digital Pads Rhodes C3.wav",
+      "Digital Pads Rhodes C4.wav",
+      "Digital Pads Rhodes C5.wav",
+      "Digital Pads Rhodes C6.wav"
+    ]
+  },
+  {
+    "source": "Track 51.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Sampled Notes Twilight Double Note 1.wav",
+      null,
+      "Sampled Notes Twilight Double Note 2.wav",
+      null,
+      "Sampled Notes Bass Noize.wav",
+      null,
+      "Sampled Notes Piano Chord 1.wav",
+      null,
+      "Sampled Notes Dirty Organ.wav",
+      null,
+      "Sampled Notes Choir Bass.wav",
+      null,
+      "Sampled Notes Zap 1.wav",
+      null,
+      "Sampled Notes Zap 2.wav",
+      null,
+      "Sampled Notes Keep! 1.wav",
+      null,
+      "Sampled Notes Bendi Bass.wav",
+      null,
+      "Sampled Notes Pluck.wav",
+      null,
+      "Sampled Notes 8 Bit Vox.wav",
+      null,
+      "Sampled Notes Techno Pop.wav",
+      null
+    ]
+  },
+  {
+    "source": "Track 52.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Sampled Notes Piano Chord 2.wav",
+      null,
+      "Sampled Notes Bass n Piano.wav",
+      null,
+      "Sampled Notes Cat Note.wav",
+      null,
+      "Sampled Notes Ragga Noize.wav",
+      null,
+      "Sampled Notes Keep! 2.wav",
+      null,
+      "Sampled Notes Plip 1.wav",
+      null,
+      "Sampled Notes Plip 2.wav",
+      null,
+      "Sampled Notes Low Organ.wav",
+      null,
+      "Sampled Notes Hi Stab.wav",
+      null,
+      "Sampled Notes Noize.wav",
+      null,
+      "Sampled Notes Trippi.wav",
+      null,
+      "Sampled Notes Short Bellz.wav",
+      null,
+      "Sampled Notes Old Hammond.wav",
+      null
+    ]
+  },
+  {
+    "source": "Track 53.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Basses Pitch Sweep Bass.wav",
+      "Basses Deep Bass.wav",
+      "Basses Reverse Bass.wav",
+      "Basses Screechy Bass.wav",
+      "Basses 808.wav"
+    ]
+  },
+  {
+    "source": "Track 54.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Basses Big 808.wav",
+      "Basses Naughty Sweep.wav",
+      "Basses Short Stab Bass.wav",
+      "Basses Classic Bass.wav",
+      "Basses Sub Juno C3.wav"
+    ]
+  },
+  {
+    "source": "Track 55.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Basses Sub Juno C2.wav",
+      "Basses Juno Wobble C3.wav",
+      "Basses Juno Wobble G2.wav",
+      "Basses Juno Wobble C2.wav",
+      "Basses Sub-Stained 1 C3.wav"
+    ]
+  },
+  {
+    "source": "Track 56.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Basses Growl Bass.wav",
+      "Basses Sub Stained 2 C3.wav",
+      "Basses Fuller Note C3.wav",
+      "Basses Rounder Bass C3.wav"
+    ]
+  },
+  {
+    "source": "Track 57.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Special FX Gun Shot 1.wav",
+      null,
+      "Special FX Pops.wav",
+      null,
+      "Special FX Mad Howl.wav",
+      null,
+      "Special FX Low Whoom.wav",
+      null,
+      "Special FX Ambi Pop.wav",
+      null,
+      "Special FX More Pops.wav",
+      null,
+      "Special FX Gun Shot 2.wav",
+      null,
+      "Special FX Back Stop.wav",
+      null,
+      "Special FX Rewind 1.wav",
+      null,
+      "Special FX Windy.wav",
+      null
+    ]
+  },
+  {
+    "source": "Track 58.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Special FX Zap.wav",
+      null,
+      "Special FX Fuller Vox.wav",
+      null,
+      "Special FX Alarm.wav",
+      null,
+      "Special FX Back n Forth.wav",
+      null,
+      "Special FX Crow.wav",
+      null,
+      "Special FX Radio.wav",
+      null,
+      "Special FX Train.wav",
+      null,
+      "Special FX Repeat Bass.wav",
+      null,
+      "Special FX Gragh.wav",
+      null,
+      "Special FX Thunder.wav",
+      null
+    ]
+  },
+  {
+    "source": "Track 59.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Special FX Birds.wav",
+      "Special FX Ice.wav",
+      null,
+      "Special FX Siren.wav",
+      null,
+      "Special FX Techno Pops.wav",
+      null,
+      "Special FX Ghosts.wav",
+      null,
+      "Special FX Snake.wav",
+      null,
+      "Special FX Warble Down.wav",
+      null,
+      "Special FX Laugh.wav",
+      null,
+      "Special FX Rattle.wav",
+      null,
+      "Special FX Low Rumble.wav"
+    ]
+  },
+  {
+    "source": "Track 60.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Special FX Low - Hi.wav",
+      null,
+      "Special FX Click.wav",
+      null,
+      "Special FX Low - Low.wav",
+      null,
+      "Special FX Rewind 2.wav",
+      null,
+      "Special FX Damned.wav",
+      null,
+      "Special FX Juno Zap.wav",
+      null,
+      "Special FX Stab.wav",
+      null,
+      "Special FX Clock.wav",
+      null,
+      "Special FX White Down.wav",
+      null,
+      "Special FX Synth FX.wav",
+      null
+    ]
+  },
+  {
+    "source": "Track 61.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Special FX Gargle.wav",
+      null,
+      "Special FX Owl.wav",
+      "Special FX Dirty Guitar.wav",
+      null,
+      "Special FX Space Port.wav",
+      "Special FX Low Drop.wav",
+      null,
+      "Special FX Mad Beast.wav",
+      null,
+      "Special FX Little Pop.wav",
+      null,
+      "Special FX S&H.wav",
+      null,
+      "Special FX Guitar.wav",
+      null,
+      "Special FX Rare Roll.wav",
+      null,
+      "Special FX Old Zap.wav",
+      null
+    ]
+  },
+  {
+    "source": "Track 62.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Vocal and FX Dirty Call.wav",
+      null,
+      "Vocal and FX Oi.wav",
+      null,
+      "Vocal and FX Bath Time.wav",
+      null,
+      "Vocal and FX Oo.wav",
+      null,
+      "Vocal and FX Ah.wav",
+      null,
+      "Vocal and FX Fire.wav",
+      null,
+      "Vocal and FX Dub.wav",
+      null,
+      "Vocal and FX Wah.wav",
+      null,
+      "Vocal and FX Ha-H-a 1.wav",
+      null
+    ]
+  },
+  {
+    "source": "Track 63.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Vocal and FX Come On.wav",
+      null,
+      "Vocal and FX Train.wav",
+      null,
+      "Vocal and FX Err....wav",
+      null,
+      "Vocal and FX Oh.wav",
+      null,
+      "Vocal and FX Spit.wav",
+      null,
+      "Vocal and FX Woww.wav",
+      null,
+      "Vocal and FX Shank.wav",
+      null,
+      "Vocal and FX Noise.wav",
+      null,
+      "Vocal and FX Eh.wav",
+      null
+    ]
+  },
+  {
+    "source": "Track 64.wav",
+    "silence": 0.4,
+    "amplitude": -100,
+    "sample_names": [
+      "Vocal and FX Brrr.wav",
+      null,
+      "Vocal and FX Ha-H-a 2.wav",
+      null,
+      "Vocal and FX All Right.wav",
+      null,
+      "Vocal and FX Tell Ya.wav",
+      null,
+      "Vocal and FX Ooo.wav",
+      null,
+      "Vocal and FX Murda.wav",
+      null,
+      "Vocal and FX Turntable.wav",
+      null,
+      "Vocal and FX Rub a Dub.wav",
+      null,
+      "Vocal and FX Scatter.wav",
+      null,
+      "Vocal and FX Hip.wav",
+      null
+    ]
+  }
+]
