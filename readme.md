@@ -7,7 +7,7 @@ exporting '90s sample CDs.
 # Installation
 
 
-## Perquisites 
+## Prerequisites 
 
 This toolset requires [Python 3](https://www.python.org/download/releases/3.0/) 
 and [ffmpeg](https://ffmpeg.org/download.html) to be installed and added to the
@@ -121,7 +121,7 @@ These parameters represent
 - `source`: The root directory from which script will search for the files 
             specified by the batch job. Usually, this is the folder containing the
             CDDA .wav files.
-- `json_batchjob`: A path to the json file containing the metdata for 
+- `json_batchjob`: A path to the json file containing the metadata for 
                    this batch-job.
 - `destination`: The destination directory for the files produced by the script.
 
