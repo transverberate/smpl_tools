@@ -41,6 +41,8 @@ def _determine_output_filenames(
 
     if isinstance(destination_arg, str) or len(destination_arg) < output_files_cnt:
         basename = ".".join(os.path.basename(source_filename).split(".")[:-1])
+        if len(basename) <= 0:
+            basename = source_filename
         
         if isinstance(destination_arg, str):
             dst_filenames = []
@@ -55,7 +57,7 @@ def _determine_output_filenames(
                 directory = os.path.dirname(destination_arg[-1])
 
         for i in r:
-            new_name = os.path.join(directory, f"{basename}_{str(i+1):02d}.wav")
+            new_name = os.path.join(directory, f"{basename}_{(i+1):02d}.wav")
             dst_filenames.append(new_name)
     else:
         dst_filenames = destination_arg
