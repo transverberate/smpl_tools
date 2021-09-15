@@ -113,7 +113,7 @@ To call the `split_by_silence` command in batch mode, include the `-b`
 switch in the command
 
 ```
-python -m smpl_tools [source] [-b json_batchjob] [-d destination]
+python -m smpl_tools split_by_silence [source] [-b json_batchjob] [-d destination]
 ```
 
 These parameters represent
@@ -187,7 +187,7 @@ If this metadata is placed in a file called `myjob.json`
 and ran as a batch job with the command
 
 ```
-python -m smpl_tools cdtracks/ -b myjob.json -d output/
+python -m smpl_tools split_by_silence cdtracks/ -b myjob.json -d output/
 ```
 
 The script will search for the files `Track 01.wav` and 
