@@ -56,6 +56,15 @@ python -m smpl_tools --help
 
 If successfully installed, `smpl_tools` should respond with an explanation of its command usage.
 
+## Updating these scripts
+To update these scripts having already previously installed an older version, download the
+latest version from the github repo, open a command prompt/shell window in the directory in
+which you downloaded the repo and run the command (**note the period!**),
+
+```
+python -m pip install .
+```
+
 
 # Common Tasks
 
