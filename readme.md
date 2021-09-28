@@ -243,8 +243,111 @@ When the script encounters this track entry, it will attempt to split the track
 waveform into **five** samples but only export **four** samples.
 It will *skip* exporting the second sample it detects.
 
+### Customizing export destinations with pattern strings
 
-## Development and Contributing
+Occasionally it may be necessary to alter the output filepath based on additional parameters.
+For instance, changing the output path based on the current track being processed.
+This can be accomplished using *pattern strings*. Pattern strings specify a string whose
+realization changes based on the value of external parameters. The `split_by_silence` command can 
+take a pattern string as an input using the `-p` trigger.
+
+```
+python -m smpl_tools split_by_silence [source] [-b json_batchjob] [-d destination] [-p pattern_string]
+```
+
+Which external parameters are used and the location of their use is 
+determined by *reference patterns*. Reference patterns are denoted by
+```
+%(NAME)
+```
+Here `NAME` identifies the parameter that should be substituted at the time of realization.
+
+Consider the pattern string
+```
+output/%(smpl).wav
+```
+This pattern string contains *one* reference pattern, `%(smpl)`. This reference pattern
+refers to the current `sample name` of the file being exported. These sample names are
+specified *per track* in a json batch file (as described in the preceding section). 
+
+Consider the `split_by_silence` command run with this pattern string,
+```
+python -m smpl_tools split_by_silence cdtracks/ -b myjob.json -p output/%(smpl).wav
+```
+Where the contents of `myjob.json` are 
+```json
+[
+  {
+      "source": "First.wav",
+      "silence": 0.4,
+      "amplitude": -100,
+      "sample_names": [
+          "Alpha.wav",
+          "Beta.wav",
+          "Gamma.wav"
+      ]
+  }
+],
+```
+Execution of this command will produce the following files
+```
+output/Alpha.wav
+output/Beta.wav
+output/Gamma.wav
+```
+
+So far, this behavior is not any different from calling the
+`split_by_silence` command with the destination trigger `-d output/`
+```
+python -m smpl_tools split_by_silence cdtracks/ -b myjob.json -d output/
+```
+
+The `split_by_silence` command offers the following reference patterns
+
+  - `%(smpl)` The current `sample name` specified *per track* in a json batch job.
+  - `%(trck)` The current `track name` specified by the `source` parameter in a json batch job.
+  - `%(dst)` The `destination` directory specified by the `-d` trigger in the command line.
+
+Consider the following pattern string example
+```
+python -m smpl_tools split_by_silence cdtracks/ -b myjob.json -p %(dst)/%(trck)/%(smpl).wav -d output/
+```
+Where the contents of `myjob.json` are 
+```json
+[
+  {
+      "source": "First.wav",
+      "silence": 0.4,
+      "amplitude": -100,
+      "sample_names": [
+          "Alpha.wav",
+          "Beta.wav",
+          "Gamma.wav"
+      ]
+  },
+  {
+      "source": "Second.wav",
+      "silence": 0.4,
+      "amplitude": -100,
+      "sample_names": [
+          "Delta.wav",
+          "Epsilon.wav",
+          "Zeta.wav"
+      ]
+  }
+],
+```
+Execution of this command will produce the following files
+```
+output/First/Alpha.wav
+output/First/Beta.wav
+output/First/Gamma.wav
+output/Second/Delta.wav
+output/Second/Epsilon.wav
+output/Second/Zeta.wav
+```
+
+## Development and contributing
 
 This tool-set is in active development and has only been rigorously 
 tested in Windows 10. If a bug is found, please report it as an issue.

@@ -1,8 +1,9 @@
 import os, sys
 _SCRIPT_PATH = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(os.path.join(_SCRIPT_PATH, "."))
-from typing import List, Union
+from typing import Any, Dict, List, Union
 import json
+import re
 
 from . import ffmpeg
 from .audio_stream import AudioStream
@@ -31,7 +32,7 @@ def _save_slices(
     return
 
 
-def _determine_output_filenames(
+def _determine_output_samplenames(
         destination_arg:    Union[str, List[str], None],
         source_filename:    str,
         output_files_cnt:   int
@@ -85,7 +86,7 @@ def split_file_by_silence(
         offset_correction=offset_correction
     )
 
-    dst_filenames = _determine_output_filenames(
+    dst_filenames = _determine_output_samplenames(
         destination,
         src_filename,
         len(slices)
@@ -95,13 +96,60 @@ def split_file_by_silence(
     return
 
 
-def split_file_by_silence_batch(
+_REGEX_NAMING_PATTERN = re.compile(r"\%\((\w+)\)")
+def _process_naming_pattern(
+    naming_pattern: str,
+    sample_name: str,
+    track_name: str
+)->str:
+
+
+    def remove_wav_ext(str_in: str)-> str:
+        str_out = str_in.strip()
+        if str_out.lower()[-4:] == ".wav":
+            str_out = str_out[:-4]
+        return str_out
+
+
+    sample_name = remove_wav_ext(sample_name)
+    track_name = remove_wav_ext(track_name)
+
+    naming_pattern_map = {
+        "smpl": sample_name,
+        "trck": track_name
+    }
+    
+    tokens = _REGEX_NAMING_PATTERN.split(naming_pattern)
+
+    tokens_iter = iter(tokens)
+    plain = [next(tokens_iter)]
+    delim = []
+    while True:
+        try: 
+            delim.append(next(tokens_iter))
+            plain.append(next(tokens_iter))
+        except StopIteration:
+            break
+    
+    delim_rpl = list(map(lambda x: naming_pattern_map.get(x, ""), delim))
+    to_comb = [plain[0]]
+    for i in range(len(delim)):
+        to_comb.append(delim_rpl[i])
+        to_comb.append(plain[i + 1])
+
+    if plain[-1][-4:].lower() != ".wav":
+        to_comb.append(".wav")
+    
+    result = "".join(to_comb)
+    return result
+    
+
+
+def _split_file_by_silence_batch(
+        entries:            List[Dict[str, Any]],
         source_dir:         str,
-        destination_dir:    str,
-        batch_filename:     str
+        naming_pattern:     str
 ):
-    with open(batch_filename, "r") as json_file:
-        entries = json.load(json_file)
     
     for entry in entries:
         filenames = entry.get("sample_names", [])
@@ -118,10 +166,10 @@ def split_file_by_silence_batch(
         else:
             filename = filename_in
 
-        source = os.path.join(source_dir, entry["source"])
+        source_path = os.path.join(source_dir, entry["source"])
         def make_filename(filename):
             if filename is not None:
-                return os.path.join(destination_dir, filename)
+                return _process_naming_pattern(naming_pattern, filename, entry["source"])
             else:
                 return ""
         destinations = [make_filename(filename) for filename in filenames]
@@ -129,12 +177,44 @@ def split_file_by_silence_batch(
         db_cutoff = entry.get("amplitude", -60)
 
         split_file_by_silence(
-            source,
+            source_path,
             destinations,
             min_duration=min_duration,
             db_cutoff=db_cutoff,
             ignore_indices=to_remove
         )
+
+
+def split_file_by_silence_batch(
+        batch_filename:     str,
+        source_dir:         str,
+        destination_dir:    str,
+        naming_pattern:     str = None
+):
+    source_dir = source_dir
+    destination_dir = destination_dir
+    naming_pattern = naming_pattern or "%(dst)/%(smpl).wav"
+
+    with open(batch_filename, "r") as json_file:
+        json_data = json.load(json_file)
+
+        if not isinstance(json_data, dict):
+            entries = json_data
+        else:
+            entries = json_data.get("entries", [])
+    
+    naming_pattern = naming_pattern.replace(
+        "%(dst)", 
+        destination_dir
+    )
+
+    _split_file_by_silence_batch(
+        entries,
+        source_dir,
+        naming_pattern
+    )
+        
+    
 
 
 __all__ = [

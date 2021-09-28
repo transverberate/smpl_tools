@@ -81,6 +81,13 @@ def split_by_silence_cmd(argv: List[str]):
         default = None, 
         nargs = "*"
     )
+    arg_parser.add_argument(
+        "-p",
+        "--pattern",
+        metavar = "NAMING PATTERN",
+        type = str,     
+        default = None
+    )
     args_namespace = arg_parser.parse_known_args(argv)[0]
 
     destination: Union[None, List[str], str] = args_namespace.destination
@@ -99,9 +106,10 @@ def split_by_silence_cmd(argv: List[str]):
                 "Parameter --destination must be a single directory when running a batchjob"
             )
         split_file_by_silence_batch( 
+            args_namespace.batch,
             args_namespace.source,
             destination,
-            args_namespace.batch
+            args_namespace.pattern
         )
     else:
         split_file_by_silence(
