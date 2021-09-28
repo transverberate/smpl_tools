@@ -272,7 +272,7 @@ specified *per track* in a json batch file (as described in the preceding sectio
 
 Consider the `split_by_silence` command run with this pattern string,
 ```
-python -m smpl_tools split_by_silence cdtracks/ -b myjob.json -p output/%(smpl).wav
+python -m smpl_tools split_by_silence cdtracks/ -b myjob.json -p "output/%(smpl).wav"
 ```
 Where the contents of `myjob.json` are 
 ```json
@@ -310,7 +310,7 @@ The `split_by_silence` command offers the following reference patterns
 
 Consider the following pattern string example
 ```
-python -m smpl_tools split_by_silence cdtracks/ -b myjob.json -p %(dst)/%(trck)/%(smpl).wav -d output/
+python -m smpl_tools split_by_silence cdtracks/ -b myjob.json -p "%(dst)/%(trck)/%(smpl).wav" -d output/
 ```
 Where the contents of `myjob.json` are 
 ```json
