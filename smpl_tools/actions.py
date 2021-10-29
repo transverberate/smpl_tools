@@ -46,11 +46,11 @@ def _determine_output_samplenames(
             basename = source_filename
         
         if isinstance(destination_arg, str):
-            dst_filenames = []
+            dst_filepaths = []
             r = range(output_files_cnt)
             directory = destination_arg
         else:
-            dst_filenames = destination_arg
+            dst_filepaths = destination_arg
             r = range(len(destination_arg), output_files_cnt)
             if len(destination_arg) < 1:
                 directory = os.path.dirname(source_filename)
@@ -59,11 +59,15 @@ def _determine_output_samplenames(
 
         for i in r:
             new_name = os.path.join(directory, f"{basename}_{(i+1):02d}.wav")
-            dst_filenames.append(new_name)
+            dst_filepaths.append(new_name)
     else:
-        dst_filenames = destination_arg
+        dst_filepaths = destination_arg
 
-    return dst_filenames
+    for dst_filepath in dst_filepaths:  # Ensure every directory exists
+        if dst_filepath is not None and len(dst_filepath) > 0:
+            os.makedirs(os.path.dirname(dst_filepath), exist_ok=True)
+
+    return dst_filepaths
 
 
 def split_file_by_silence(
